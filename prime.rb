@@ -5,7 +5,8 @@ def prime?(some_Int)
     return false if some_Int % n == 0
   end
   true
- end
+ else false 
+   end
 end
 =begin prime?(40)
 prime?(-30)
