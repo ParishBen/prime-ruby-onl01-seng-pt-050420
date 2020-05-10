@@ -7,10 +7,11 @@ def prime?(some_Int)
   true
  end
 end
-prime?(40)
+=begin prime?(40)
 prime?(-30)
 prime?(0)
 prime?(-2)
 prime?(3)
 prime?(7)
 prime?(9)
+=end
