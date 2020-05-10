@@ -6,7 +6,7 @@ def prime?(some_Int)
   end
   true
  end
-end
+
 =begin prime?(40)
 prime?(-30)
 prime?(0)
