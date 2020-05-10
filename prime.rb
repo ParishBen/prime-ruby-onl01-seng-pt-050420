@@ -1,6 +1,7 @@
 # Add  code here!
-def prime?(someInt)
- return false if someInt <= 1
-  Math.sqrt(someInt).to_i.downto(2).each {|i| return false if num % i == 0}
+def prime?(some_Int)
+  (2..(someInt - 1)).each do |n|
+    return false if num % n == 0
+  end
   true
 end
