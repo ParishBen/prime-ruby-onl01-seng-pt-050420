@@ -1,6 +1,10 @@
 # Add  code here!
 def prime?(someInt)
-  if someInt !== 1 && someInt !== 0 
-    
-end
+  for d in 2..(someInt - 1)
+   if (someInt % d) == 0
+    return false
+   end
+  end
 
+  true
+ end
